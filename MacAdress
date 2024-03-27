@@ -1,0 +1,20 @@
+#include <WiFi.h>
+
+void setup() {
+  Serial.begin(115200);
+  
+
+
+  // Initialiser le WiFi en mode STA
+  WiFi.mode(WIFI_STA);
+
+  // Obtenir l'adresse MAC
+  String mac = WiFi.macAddress();
+  
+  // Afficher l'adresse MAC
+  Serial.print("Adresse MAC de l'ESP32: ");
+  Serial.println(mac);
+}
+
+void loop() {
+}
