@@ -1,4 +1,4 @@
-# heartbit
+# Hearbit V2
 
 ## Description
 This project enables communication between two ESP32 C3 BEETLE cards using the AP/STA (access point/station) communication mode, without the need for external communication. Each card is equipped with a button, an RGB LED and a vibrating motor. Pressing a button on ESP32 A triggers the LED and vibrating motor on ESP32 B, and vice versa.
