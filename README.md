@@ -10,7 +10,6 @@ This project enables communication between two ESP32 C3 BEETLE cards using the A
 - 2 x Vibration Motors
 - Connection Wires
 - Resistors (for LEDs)
-- Breadboard or Perfboard
 
 ## Hardware Setup
 1. Connect the 2 ESP32s to a breadboard.
