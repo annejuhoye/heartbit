@@ -32,7 +32,7 @@ The code supplied establishes direct communication between the two ESP32s. It ma
 If communication between the two boards stops working:
 - Make sure the lithium battery is sufficiently charged. You can charge it with the Lipo charger Type C(V1.0).
 
-   ![charge the battery]([https://github.com/annejuhoye/heartbit/blob/main/charge.png])
+   ![charge the battery](https://github.com/annejuhoye/heartbit/blob/main/charge.png)
   
 - Reload the Arduino code below onto the board, being careful with the macAdress (see the macAdress file for the code).
 - If the LEDs do not light up correctly, turn off the PCBs, wait a moment, then turn them back on.
